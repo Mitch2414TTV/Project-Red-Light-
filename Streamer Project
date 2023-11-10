@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: dimgray;
+            color: Lightgreen;
+            font-family: sans-serif;
+            font-style: bold;
+            text-align: left;
+            font-size: 60px;
+            padding: 60px;
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        a {
+            background-color: dimgray;
+            color: lightgreen;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 55px
+        }
+
+        p {
+            background-color: dimgray;
+            color: lightgreen;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 50px
+        }
+
+        h1 {
+            background-color: dimgray;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 75px
+        }
+
+        .one {
+            background-color: dimgray;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 80px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h2 {
+            background-color: dimgray;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 70px
+        }
+
+        h3 {
+            background-color: dimgray;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+        }
+
+        .four {
+            background-color: black;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 85px;
+            text-align: center;
+            width: 100% !important;
+            padding-bottom: 80px;
+            padding-top: 80px;
+        }
+
+        .header {
+            background-color: dimgray;
+            padding: 20px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 85px;
+        }
+
+        .topnav {
+            background-color: dimgray;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: skyblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            background-color: lightseagreen;
+            color: black;
+            text-align: center;
+        }
+
+        .five {
+            background-color: dimgray;
+            color: skyblue;
+            font-family: sans-serif;
+            font-style: bold;
+            font-size: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <title>Streamer Project</title>
+    <div class="header">
+        <h1>Streamer project</h1>
+    </div>
+    <div class="topnav">
+        <a href="https://twitch.com">Twitch</a>
+        <a href="https://kick.com">Kick</a>
+        <a href="https://streamlabs.com">Stream Labs</a>
+    </div>
+    <p> This is going to be a project where I will show you things that can help you be a successful streamer. </p>
+    <a> Point I will go over</a>
+    <ul>
+        <li> How to get started </li>
+        <li> things you will need</li>
+        <li> what platform to use</li>
+        <li> helpful tips</li>
+        <li> sponsors </li>
+    </ul>
+    <h2> How to get started</h2>
+    <ul>
+        <li>get a mic </li>
+        <li> get a device you can view chat on</li>
+        <li>look at stream data </li>
+        <li> PUT IN HOURS</li>
+        <li> play fun games</li>
+        <li> sponsors</li>
+    </ul>
+    <br>
+    <h3>Mic </h3>
+    <p>getting a mic, can be tricky if you are streaming on a console, say ps4 or xbox1. you should get a headset or a
+        placable mic, If you like to plug in a keyboard and mouse you should get a USB mic. Quick note though if you
+        chose to use a keyboard and mouse, you should get a USB extension, because consoles do not have much storage you
+        normally should have a USB with extra storage, this and the keyboard and mouse will take up all three slots so
+        make sure to get a splitter to add the mic.</p>
+    <h3>Reading Chat</h3>
+    <p>getting a device you can put chat on- This can be very helpful, and it can also be easy. Using a phone is a good
+        way to do this but it may be hard to read chat, so using a computer is way easier. I would recommend using an
+        old laptop or laptop that is not in use it makes it much easier in the long run. If in this case, you have a PC
+        with two monitors use one for chat.</p>
+    <h3>Stream Data </h3>
+    <p>Looking at stream data- Stream data can be very very helpful. This will allow you to see which games get the most
+        views or which specific guests you decide to bring on, are the most popular. This can be helpful for many things
+        but to keep it simple use it to see which games get the most views and grind that game for a little while.</p>
+    <h3>Work</h3>
+    <p>putting in hours-- This is also important, it is important to stream lots, it can range from 1-2 hours every day
+        to or larger number like 4-3 hours every other day. This is a preference thing, it is important to find what
+        best fits you.</p>
+    <h3> Having Fun</h3>
+    <p>playing fun games- it is also very very important to have fun! Streaming is all about sharing your good times
+        with people, no matter what video games do best make sure to do you, have fun, and play games you love. You will
+        find the right people who love your content.</p>
+    <h3> sponsors</h3>
+    <p>sponsors-there are many different types of sponsors you can get the best one I would say to get is a small
+        company. You can use Nightbot to plug it into your chat every few minutes it is helpful. </p>
+    <br>
+    <h1> Things you will need</h1>
+    <ul>
+        <li>Laptop or access to one</li>
+        <li>Nightbot</li>
+        <li> Microphone</li>
+        <li><strong>schedule!</strong></li>
+    </ul>
+    <br>
+    <h3> Laptop</h3>
+    <p>It is important to have a laptop or access to one because, with a laptop or PC, you can go on Twitch, and add
+        elements like mini pops-ups when someone follows.</p>
+    <h3> NightBot-Mod</h3>
+    <p>(night bot= NB) Nightbot-Nightbot is very, very helpful for new streams, I even still use Nightbot. This can
+        allow you do to so much, I can summarize some important things that it can do, but it is truly amazing you
+        should check it out for yourself. Will using NB you can have it post links to websites that you want to promote,
+        and you can have it display a message, with the website link. You can put this one on a timer like every 10
+        minutes it will post it in chat. You can also do giveaways using NB. You can block spamming and using certain
+        words, though if you are going to block spamming it can be annoying at times if people say "w" and then "w"
+        again it will time that person out for spamming.</p>
+    <h3>Microphone</h3>
+    <p>you should get a mic, as it helps out a lot with, not having to reply in chat to someone and just talking will
+        keep people more engaged. </p>
+    <h3> Schedule</h3>
+    <p>It is important to have a proper schedule, Do not overwork yourself. Schedules can help you stream consistently.
+        It will also give viewers a sense of when you will be streaming. Just remember to not overwork yourself as it
+        can happen be rational when planning.</p>
+    <h1> What platform to use</h1>
+    <p>You should use something that will work for your console or PC, If you have a console I think your default is
+        Twitch so that is what you will be using, you can also stream through Stream labs but you have to pay for it. On
+        PlayStation consoles, your default is also Twitch, but you have a bit more customization. Now if you have a
+        Laptop or PC I would use Kick, Kick has a better pay split of 95% to you and 5% to kick, witch compared to
+        twitch is way better. Since the platform is relatively new you can start there easily. </p>
+    <h1>Tips</h1>
+    <ul>
+        <li> Have Fun </li>
+        <li> Try New Things</li>
+        <li> Play With Friends </li>
+        <li> Dont Over Complicate Things</li>
+    </ul>
+    <h1> Sponsors</h1>
+    <p> Sponsors should not be your main priority, You should only really start thinking about sponsors with around
+        1,000 followers. The best way is to find a small company that you want to support fill out the form if provided
+        or just email them, and hope for the best. This is where you can use NB to plug stuff in chat like your code.
+        Example NB uses !dubbys to send a chat saying use code "mitch2414" for 10% off.</p>
+    <p class="five"><strong>That is all, thank you for reading, have a good day and email me your acount I will follow
+            you.</strong></p>
+    <h1 class="one"> Support ME</h1>
+    <ul>
+        <li> <a class="link" href="https://nerdfocus.com?sca_ref=4658336.6SExYs4ZJ9&sca_source=Website">Nerd-focus</a>
+        </li>
+        <li> <a class="link" href="https://dubby.gg">Dubby's Energy</a></li>
+        <a><strong>use code "mitch2414" at checkout for 10% off!</strong></a>
+    </ul>
+    <h1 class="one">Find Me Here</h1>
+    <ul>
+        <li> <a class="link" href="https://twitter.com/Mitch2414TTV">Twitter</a></li>
+        <li> <a class="link" href="https://www.twitch.tv/mitch2414">Twitch</a></li>
+        <li> <a class="link" href="https://www.youtube.com/channel/UC7iaeZoZQDEOo_zi6TZPOOw">Youtube</a></li>
+        <li> <a class"two"> My Email is "Mitch2414TTV@gmail.com" Contact me there!</a></li>
+    </ul>
+    <p><strong>Please support me, If you can! There are two main ways, use my code when buying Dubbys or Use my link
+            when buying Nerd Focus products.</strong></p>
+    <h1 class="four">sincerely <br> <strong> Mitch2414</strong></h1>
+</body>
+
+</html>
