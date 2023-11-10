@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Links</title>
+        <style>
+            body    {
+                background-color: black;
+                color: skyblue;
+                font-family: monospace;
+                font-style: bold;
+                padding: 40px;
+                text-align: center;
+                font-size: 30px;
+            }
+
+            p,
+            a   {
+                background-color: black;
+                color: skyblue;
+                font-family: monospace;
+                font-style: bold;
+                padding: 40px;
+                text-align: center;
+                font-size: 30px;
+            }
+            h1,
+            h2,
+            h3,
+            h4  {
+                background-color: black;
+                color: lightseagreen;
+                font-family: monospace;
+                font-style: bold;
+                padding: 40px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome To My Link Tree</h1>
+        <p> This will be fore all my major platforms, I will inclued- Dubbys Energy, Nerd Focus, My Instagram, Tiktok, Twitch, X, and Kick.</p>
+    </body>
+</html>
