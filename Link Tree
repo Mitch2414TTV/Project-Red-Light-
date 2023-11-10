@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Links</title>
-        <style>
-            body    {
-                background-color: black;
-                color: skyblue;
-                font-family: monospace;
-                font-style: bold;
-                padding: 40px;
-                text-align: center;
-                font-size: 30px;
-            }
 
-            p,
-            a   {
-                background-color: black;
-                color: skyblue;
-                font-family: monospace;
-                font-style: bold;
-                padding: 40px;
-                text-align: center;
-                font-size: 30px;
-            }
-            h1,
-            h2,
-            h3,
-            h4  {
-                background-color: black;
-                color: lightseagreen;
-                font-family: monospace;
-                font-style: bold;
-                padding: 40px;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Welcome To My Link Tree</h1>
-        <p> This will be fore all my major platforms, I will inclued- Dubbys Energy, Nerd Focus, My Instagram, Tiktok, Twitch, X, and Kick.</p>
-    </body>
+<head>
+    <title>My Links</title>
+    <style>
+        body {
+            background-color: black;
+            color: skyblue;
+            font-family: monospace;
+            padding: 40px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: lightseagreen;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            color: skyblue;
+            font-style: italic;
+        }
+
+        .link {
+            color: skyblue;
+            font-family: fantasy;
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome To My Link Tree</h1>
+    <p>This will be for all my major platforms including Dubby's Energy, Nerd Focus, My Instagram,Twitch, and Kick.</p>
+    <ul>
+        <li><a class="link" href="https://dubby.gg">Dubby-Energy</a></li>
+        <li><a class="link" href="https://nerdfocus.com?sca_ref=4658336.6SExYs4ZJ9">Nerd-Focus</a></li>
+        <li><a class="link" href="https://www.youtube.com/@Mitch2414TTV">YouTube</a></li>
+        <li><a class="link" href="https://twitch.com/mitch2414">Twitch</a></li>
+        <li><a class="link" href="https://kick.com/mitch2414">Kick</a></li>
+        <li><a class="link" href="https://https://www.instagram.com/mitch2414ttv/?next=%2F">Instagram</a></li>
+    </ul>
+</body>
+
 </html>
