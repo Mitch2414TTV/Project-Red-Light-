@@ -1,0 +1,129 @@
+\
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="https://www.coolmathgames.com/pwa/images/icon-512x512.png">
+    <title>Cross-Site Scripting (XSS)</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+            color: black;
+            text-align: center;
+            padding: 35px;
+            font-size: 30px;
+            font-family: 'Gill Sans', sans-serif;
+        }
+
+        p,
+        a {
+            background-color: whitesmoke;
+            color: black;
+            text-align: left;
+            padding: 20px;
+            font-size: 30px;
+            font-family: 'Gill Sans', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            background-color: whitesmoke;
+            color: skyblue;
+            text-align: left;
+            padding: 20px;
+            font-size: 40px;
+            font-family: 'Gill Sans', sans-serif;
+        }
+
+        .one {
+            background-color: whitesmoke;
+            color: black;
+            text-align: center;
+            padding: 20px;
+            font-size: 50px;
+            font-family: 'Gill Sans', sans-serif;
+        }
+
+        pre {
+            background-color: lightblue;
+            color: black;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            font-family: sans-serif;
+        }
+
+        .JS-more {
+            background-color: lightblue;
+            color: black;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            font-family: sans-serif;
+            white-space: pre-wrap;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="one"><strong>Cross-Site Scripting (XSS)</strong></h1>
+    <p>Have you heard of XSS (Cross-Site Scripting)? It's a technique that allows you to inject scripts into a website,
+        potentially affecting various coding languages, including HTML, CSS, and JavaScript.</p>
+    <h2>Why is XSS important?</h2>
+    <p>XSS can be used to access blocked websites, such as using it with an app like Sparkvue from the Google Chrome Web
+        Store.</p>
+    <h2>How to use it</h2>
+    <p>If you want to try it out with Sparkvue, follow these steps:</p>
+    <ul>
+        <li>Press "Build New Experiment."</li>
+        <li>Select the First Layout.</li>
+        <li>Click the second-to-last button, which looks like a piece of paper with checkmarks on it.</li>
+        <li>Choose "Multiple Choice" under "Question Type."</li>
+        <li>Paste your script or code into the text box.</li>
+    </ul>
+    <h1>Great job, you did it!</h1>
+    <h2>Here is some example code:</h2>
+    <a>This is the simplest code:</a>
+    <pre>
+        <code>
+            &lt;script&gt;window.location.href="https://google.com"&lt;/script&gt;
+        </code>
+    </pre>
+    <p>If you want a more visually pleasing way to do it, consider this code:</p>
+    <pre class="JS-more">
+        <code>
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;style&gt;
+            .bigbutton {
+                background-color: black;
+                color: blue;
+                font-family: sans-serif;
+                font-weight: bold;
+                text-align: center;
+                font-size: 45px;
+                padding: 100px 150px 100px;
+            }
+            body {
+                background-color: white;
+                color: black;
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 42px;
+            }
+            &lt;/style&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;button class="bigbutton" onclick="window.location.href='https://google.com';"&gt;Google&lt;/button&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+    <p>That's how XSS can be used. Feel free to explore and experiment further!</p>
+    <a href="https://w3schools.com">Learn the Basics</a>
+</body>
+
+</html>
