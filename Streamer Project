@@ -2,6 +2,8 @@
 <html>
 
 <head>
+    <title>Project Streamer</title>
+    <link rel="icon" type="image/x-icon" href="https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png">
     <style>
         body {
             background-color: dimgray;
@@ -99,6 +101,7 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            transition: background-color ease 0.3s, color ease 0.3s;
         }
 
         .topnav a:hover {
@@ -113,6 +116,28 @@
             font-family: sans-serif;
             font-style: bold;
             font-size: 50px;
+        }
+
+        div {
+            width: 30%;
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .con1 {
+            background-color: seagreen;
+        }
+
+        .con2 {
+            background-color: lightskyblue;
+            color: black;
+        }
+
+        .con3 {
+            background-color: lightseagreen;
         }
     </style>
 </head>
@@ -205,6 +230,25 @@
         PlayStation consoles, your default is also Twitch, but you have a bit more customization. Now if you have a
         Laptop or PC I would use Kick, Kick has a better pay split of 95% to you and 5% to kick, witch compared to
         twitch is way better. Since the platform is relatively new you can start there easily. </p>
+    <h3> Here is the Major Platforms </h3>
+    <div style="background-color: seagreen;">
+        <h2 class="con1">Rumble</h2>
+        <p class="con1">Great platform for live streams and podcasts</p>
+        <p class="con1">Advantage of 78 million active users a month</p>
+    </div>
+
+    <div style="background-color: lightskyblue;">
+        <h2 class="con2">Kick</h2>
+        <p class="con2">Great platform that doesn't censor you, and the subsplit is better</p>
+        <p class="con2"> would recommend starting out here</p>
+    </div>
+
+    <div style="background-color: lightseagreen;">
+        <h2 class="con3">Twitch</h2>
+        <p class="con3">Most commonly used platform</p>
+        <p class="con3">Has channel Points</p>
+        <p class="con3"><strong>Give The Viewer Something to Work for!</strong></p>
+    </div>
     <h1>Tips</h1>
     <ul>
         <li> Have Fun </li>
