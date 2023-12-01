@@ -2,6 +2,21 @@
 <html>
 
 <head>
+    <script>
+        function updateSales() {
+            // Simulating new sales data, you can replace this with your actual data retrieval logic
+            const newTotalSales = getRandomInt(5000, 15000);
+            const newYearlySales = getRandomInt(10000, 50000);
+
+            // Update the HTML content with the new sales data
+            document.getElementById('totalSales').textContent = '$' + newTotalSales;
+            document.getElementById('yearlySales').textContent = '$' + newYearlySales;
+        }
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+    </script>
     <title>Project Streamer</title>
     <link rel="icon" type="image/x-icon" href="https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png">
     <style>
@@ -138,6 +153,7 @@
 
         .con3 {
             background-color: lightseagreen;
+
         }
     </style>
 </head>
@@ -279,7 +295,20 @@
     </ul>
     <p><strong>Please support me, If you can! There are two main ways, use my code when buying Dubbys or Use my link
             when buying Nerd Focus products.</strong></p>
+    <h4>Followwwww</h4>
+    <h1> Sales-Count</h1>
+    <div style="background-color: seagreen;">
+        <h2 class="con1">Sales-DUBBY</h2>
+        <p class="con1">Total Sales: 1</p>
+        <p class="con1">Total Profit:$1.62</p>
+    </div>
+    <div style="background-color: lightskyblue">
+        <h2 class="con2"> Sales-NF</h2>
+        <p class="con2">Total Sales:0</p>
+        <p class="con2">Total Profit:0</p>
+    </div>
     <h1 class="four">sincerely <br> <strong> Mitch2414</strong></h1>
+
 </body>
 
 </html>
